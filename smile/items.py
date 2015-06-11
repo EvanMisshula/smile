@@ -12,3 +12,4 @@ class SmileItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     imageURL = scrapy.Field()
+    keyItem = scrapy.Field()
